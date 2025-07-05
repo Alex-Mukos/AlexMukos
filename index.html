@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Mukos | Créateur d'identité digitale</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header class="site-header text-center text-white p-4">
+    <img src="Image/Logo/LOGO VRAI PNG.png" alt="Logo Alex Mukos" width="100" />
+    <h1>Alex Mukos</h1>
+    <p>Création de sites web professionnels, logos captivants, affiches impactantes, pages sociales engageantes & booster de visibilité</p>
+ </header>
+
+  <!-- Corps principal divisé en 3 -->
+  <main class="d-flex main-container">
+
+    <!-- Partie gauche – Photos en boucle -->
+    <aside class="left-banner p-2">
+      <h4 class="text-center text-white">🎨 Publicités photo</h4>
+      <div id="photoSlider">
+        <img src="Image/ImagesBoucle/images (2).png" class="img-fluid" />
+        <img src="Image/ImagesBoucle/images (4).jpeg" class="img-fluid" />
+        <img src="Image/ImagesBoucle/images (5).jpeg" class="img-fluid" />
+      </div>
+    </aside>
+
+    <!-- Partie centrale – Contenu principal -->
+    <section class="content-area p-4">
+
+         <!-- Menu -->
+      <nav class="nav nav-pills justify-content-center mb-4">
+        <a class="nav-link active" href="#home">Accueil</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#contact">Nous contacter</a>
+      </nav>
+
+      <!-- Services -->
+      <section id="services">
+        <h2 class="text-center mb-4">🛠 Nos services</h2>
+        <div class="service-box" style="background-image: url('Image/ArrièreCréationSite/téléchargement.jpeg')">
+          <h3>Création des Sites Web</h3>
+          <p>Professionnels. Rapides. Responsives. Parfaits pour faire briller votre activité.</p>
+          <img src="media/site1.jpg" /><img src="media/site2.jpg" /><img src="media/site3.jpg" />
+        </div>
+        <div class="service-box" style="background-image: url('Image/ArrièreLogo/IMG-20250525-WA0003.jpg')">
+          <h3>Conception Logos & Affiches</h3>
+          <p>Designs uniques. Identité forte. Reconnaissance instantanée. Faites bonne impression.</p>
+          <img src="Image/EchantillonsAffiches et logo/Invitation Collation.jpg" /><img src="Image/EchantillonsAffiches et logo/LOGO VRAI PNG.png" /><img src="Image/EchantillonsAffiches et logo/INVITATION OK.jpg" />
+        </div>
+        <div class="service-box" style="background-image: url('media/bg-fb.jpg')">
+          <h3>Création des Pages Web, Création des Pages Facebook & Boost Facebook</h3>
+          <p>Stratégie ciblée. Engagement rapide. Boostez votre impact et votre audience.</p>
+          <img src="media/fb1.png" /><img src="media/fb2.png" /><img src="media/fb3.png" />
+        </div>
+      </section>
+
+      <!-- Formulaire -->
+      <section id="contact">
+        <h2 class="text-center mt-4">📩 Envoyer un message</h2>
+        <form action="formulaire.php" method="POST" class="bg-light p-3 rounded">
+          <input name="nom" class="form-control mb-2" placeholder="Votre nom" required />
+          <input name="email" type="email" class="form-control mb-2" placeholder="Votre adresse e-mail" required />
+          <textarea name="message" class="form-control mb-2" rows="5" placeholder="Votre message détaillé..." required></textarea>
+          <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+        </form>
+
+        <!-- Contacts directs -->
+        <div class="mt-3 text-center">
+        <a href="mailto:alexmukos315@gmail.com">✉ Email</a> |
+        <a href="https://wa.me/243827445224" target="_blank">📱 WhatsApp</a> |
+        <a href="https://facebook.com/alexmukos" target="_blank">📘 Facebook</a> |
+        <a href="https://twitter.com/alexmukos" target="_blank">🐦 X/Twitter</a>
+        </div>
+
+        <!-- Liens sociaux admin -->
+        <div class="mt-2 text-center">
+        <a href="https://facebook.com/alexmukos" target="_blank">Facebook Admin</a> |
+        <a href="https://tiktok.com/@alexmukos" target="_blank">TikTok</a> |
+        <a href="https://instagram.com/alexmukos" target="_blank">Instagram</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- Partie droite – Vidéos en boucle -->
+    <aside class="right-banner p-2">
+      <h4 class="text-center text-white">📹 Publicités vidéo</h4>
+      <video autoplay loop muted playsinline width="100%">
+        <source src="Image/VideoBoucle/Créer_Un_Site_Web_avec_HTML_CSS(360p).mp4" type="video/mp4" />
+      </video>
+      <video autoplay loop muted playsinline width="100%">
+        <source src="media/video2.mp4" type="video/mp4" />
+      </video>
+    </aside>
+
+  </main>
+
+  <footer class="text-center text-white p-3 bg-dark">
+    © 2025 Alex Mukos. <a href="https://www.google.com/search?q=Alex+Mukos" target="_blank">📎 Google</a> |
+    <a href="https://example.com" target="_blank">🔗 Autres sites</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
